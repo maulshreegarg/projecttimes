@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ['Old Standard TT', 'serif'], 
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
